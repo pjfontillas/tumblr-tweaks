@@ -1,7 +1,7 @@
 (function () {
     $(document).ready(function () {
         console.log('Looking for Tumblr site...');
-        if ($('#btn_tumblr')) {
+        if ($('#btn_tumblr').length != 0) {
             console.log('Tumblr found!');
 
             // add support for next navigation
