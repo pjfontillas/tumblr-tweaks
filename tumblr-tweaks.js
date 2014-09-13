@@ -2,7 +2,7 @@
     $(document).ready(function () {
         // can't rely on Google Chrome to match URLs since some Tumblr sites are on their own domain
         console.log('Looking for Tumblr site...');
-        if ("Tumblr" in window) {
+        if ($('#tumblr_controls').length !== 0) {
             console.log('Tumblr found!');
 
             // add support for next navigation

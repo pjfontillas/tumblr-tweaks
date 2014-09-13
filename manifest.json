@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Tumblr Tweaks",
     "description": "This Google Chrome extension automatically extends functionality on a Tumblr site.",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "icons": {
         "16": "icon16.png",
         "48": "icon48.png",
